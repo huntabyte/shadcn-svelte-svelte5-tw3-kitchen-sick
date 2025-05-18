@@ -1,7 +1,6 @@
 <script lang="ts">
 	import * as Card from "$lib/components/ui/card/index.js";
 	import { Button } from "$lib/components/ui/button/index.js";
-	import * as Icon from "$lib/components/docs/icons/index.js";
 	import { Label } from "$lib/components/ui/label/index.js";
 	import { Input } from "$lib/components/ui/input/index.js";
 	import * as RadioGroup from "$lib/components/ui/radio-group/index.js";
@@ -109,7 +108,6 @@
 					class="sr-only"
 					aria-label="Paypal"
 				/>
-				<Icon.PayPal class="mb-3 size-6" />
 				Paypal
 			</Label>
 			<Label
@@ -122,7 +120,6 @@
 					class="sr-only"
 					aria-label="Apple"
 				/>
-				<Icon.Apple class="mb-3 size-6" />
 				Apple
 			</Label>
 		</RadioGroup.Root>
