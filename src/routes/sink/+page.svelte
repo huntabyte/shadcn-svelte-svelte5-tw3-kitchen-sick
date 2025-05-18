@@ -15,10 +15,12 @@
 <Button class="m-4" onclick={changeMode}>Change modes</Button>
 
 <Tooltip.Provider>
-	{#each Object.entries(comps) as [name, Comp]}
-		<div class="py-8 px-4 border">
-			<h1>{name}</h1>
-			<Comp />
-		</div>
-	{/each}
+	<div class="grid md:grid-cols-2 lg:grid-cols-3">
+		{#each Object.entries(comps) as [name, Comp]}
+			<div class="py-8 px-4 border">
+				<h1>{name}</h1>
+				<Comp />
+			</div>
+		{/each}
+	</div>
 </Tooltip.Provider>
