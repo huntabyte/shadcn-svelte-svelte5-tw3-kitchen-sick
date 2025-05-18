@@ -37,7 +37,7 @@
 				{/snippet}
 			</DropdownMenu.Trigger>
 			<DropdownMenu.Content
-				class="w-[var(--bits-dropdown-menu-anchor-width)]"
+				class="w-(--bits-dropdown-menu-anchor-width)"
 				align="start"
 			>
 				{#each versions as version (version)}

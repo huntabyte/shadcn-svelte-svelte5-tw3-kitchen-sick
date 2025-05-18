@@ -4,7 +4,7 @@
 </script>
 
 <AlertDialog.Root>
-	<AlertDialog.Trigger class={buttonVariants({ variant: "outline" })}>
+	<AlertDialog.Trigger class={buttonVariants({ variant: "outline-solid" })}>
 		Show Dialog
 	</AlertDialog.Trigger>
 	<AlertDialog.Content>

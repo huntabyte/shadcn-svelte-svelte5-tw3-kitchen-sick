@@ -84,7 +84,7 @@
 					<Form.Label>Language</Form.Label>
 					<Popover.Trigger
 						class={cn(
-							buttonVariants({ variant: "outline" }),
+							buttonVariants({ variant: "outline-solid" }),
 							"w-[200px] justify-between",
 							!$formData.language && "text-muted-foreground"
 						)}

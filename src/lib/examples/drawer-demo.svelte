@@ -71,7 +71,7 @@
 </script>
 
 <Drawer.Root>
-	<Drawer.Trigger class={buttonVariants({ variant: "outline" })}
+	<Drawer.Trigger class={buttonVariants({ variant: "outline-solid" })}
 		>Open Drawer</Drawer.Trigger
 	>
 	<Drawer.Content>
@@ -119,7 +119,7 @@
 			</div>
 			<Drawer.Footer>
 				<Button>Submit</Button>
-				<Drawer.Close class={buttonVariants({ variant: "outline" })}
+				<Drawer.Close class={buttonVariants({ variant: "outline-solid" })}
 					>Cancel</Drawer.Close
 				>
 			</Drawer.Footer>

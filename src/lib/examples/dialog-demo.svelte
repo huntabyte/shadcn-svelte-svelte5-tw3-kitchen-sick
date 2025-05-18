@@ -6,7 +6,7 @@
 </script>
 
 <Dialog.Root>
-	<Dialog.Trigger class={buttonVariants({ variant: "outline" })}
+	<Dialog.Trigger class={buttonVariants({ variant: "outline-solid" })}
 		>Edit Profile</Dialog.Trigger
 	>
 	<Dialog.Content class="sm:max-w-[425px]">

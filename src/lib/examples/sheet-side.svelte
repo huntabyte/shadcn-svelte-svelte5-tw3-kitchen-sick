@@ -10,7 +10,7 @@
 <div class="grid grid-cols-2 gap-2">
 	{#each SHEET_SIDES as side, _ (side)}
 		<Sheet.Root>
-			<Sheet.Trigger class={buttonVariants({ variant: "outline" })}
+			<Sheet.Trigger class={buttonVariants({ variant: "outline-solid" })}
 				>{side}</Sheet.Trigger
 			>
 			<Sheet.Content {side}>
@@ -31,7 +31,7 @@
 					</div>
 				</div>
 				<Sheet.Footer>
-					<Sheet.Close class={buttonVariants({ variant: "outline" })}>
+					<Sheet.Close class={buttonVariants({ variant: "outline-solid" })}>
 						Save changes
 					</Sheet.Close>
 				</Sheet.Footer>

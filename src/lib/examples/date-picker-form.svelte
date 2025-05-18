@@ -70,7 +70,7 @@
 					<Popover.Trigger
 						{...props}
 						class={cn(
-							buttonVariants({ variant: "outline" }),
+							buttonVariants({ variant: "outline-solid" }),
 							"w-[280px] justify-start pl-4 text-left font-normal",
 							!value && "text-muted-foreground"
 						)}

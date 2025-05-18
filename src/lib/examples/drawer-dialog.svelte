@@ -12,7 +12,7 @@
 
 {#if isDesktop.current}
 	<Dialog.Root bind:open>
-		<Dialog.Trigger class={buttonVariants({ variant: "outline" })}
+		<Dialog.Trigger class={buttonVariants({ variant: "outline-solid" })}
 			>Edit Profile</Dialog.Trigger
 		>
 		<Dialog.Content class="sm:max-w-[425px]">
@@ -37,7 +37,7 @@
 	</Dialog.Root>
 {:else}
 	<Drawer.Root bind:open>
-		<Drawer.Trigger class={buttonVariants({ variant: "outline" })}
+		<Drawer.Trigger class={buttonVariants({ variant: "outline-solid" })}
 			>Edit Profile</Drawer.Trigger
 		>
 		<Drawer.Content>
@@ -59,7 +59,7 @@
 				<Button type="submit">Save changes</Button>
 			</form>
 			<Drawer.Footer class="pt-2">
-				<Drawer.Close class={buttonVariants({ variant: "outline" })}
+				<Drawer.Close class={buttonVariants({ variant: "outline-solid" })}
 					>Cancel</Drawer.Close
 				>
 			</Drawer.Footer>

@@ -28,7 +28,7 @@
 			<Popover.Root>
 				<Popover.Trigger
 					class={buttonVariants({
-						variant: "outline",
+						variant: "outline-solid",
 						size: "sm",
 						class: "ml-auto",
 					})}
@@ -94,7 +94,7 @@
 			<Popover.Root>
 				<Popover.Trigger
 					class={buttonVariants({
-						variant: "outline",
+						variant: "outline-solid",
 						size: "sm",
 						class: "ml-auto",
 					})}
@@ -160,7 +160,7 @@
 			<Popover.Root>
 				<Popover.Trigger
 					class={buttonVariants({
-						variant: "outline",
+						variant: "outline-solid",
 						size: "sm",
 						class: "ml-auto",
 					})}

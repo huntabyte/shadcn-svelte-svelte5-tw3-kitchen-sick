@@ -5,7 +5,7 @@
 
 <Tooltip.Provider>
 	<Tooltip.Root>
-		<Tooltip.Trigger class={buttonVariants({ variant: "outline" })}
+		<Tooltip.Trigger class={buttonVariants({ variant: "outline-solid" })}
 			>Hover</Tooltip.Trigger
 		>
 		<Tooltip.Content>

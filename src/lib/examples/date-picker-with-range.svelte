@@ -28,7 +28,7 @@
 	<Popover.Root>
 		<Popover.Trigger
 			class={cn(
-				buttonVariants({ variant: "outline" }),
+				buttonVariants({ variant: "outline-solid" }),
 				!value && "text-muted-foreground"
 			)}
 		>

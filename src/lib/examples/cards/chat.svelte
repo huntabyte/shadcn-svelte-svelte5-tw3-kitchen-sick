@@ -83,7 +83,7 @@
 		<Tooltip.Root delayDuration={0}>
 			<Tooltip.Trigger
 				class={buttonVariants({
-					variant: "outline",
+					variant: "outline-solid",
 					size: "icon",
 					class: "ml-auto rounded-full",
 				})}
@@ -139,7 +139,7 @@
 	</Card.Footer>
 </Card.Root>
 <Dialog.Root bind:open>
-	<Dialog.Content class="gap-0 p-0 outline-none">
+	<Dialog.Content class="gap-0 p-0 outline-hidden">
 		<Dialog.Header class="px-4 pb-4 pt-5">
 			<Dialog.Title>New message</Dialog.Title>
 			<Dialog.Description>

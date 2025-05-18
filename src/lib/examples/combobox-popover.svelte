@@ -68,7 +68,7 @@
 		<Popover.Trigger
 			id={triggerId}
 			class={buttonVariants({
-				variant: "outline",
+				variant: "outline-solid",
 				size: "sm",
 				class: "w-[150px] justify-start",
 			})}

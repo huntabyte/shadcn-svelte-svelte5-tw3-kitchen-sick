@@ -22,7 +22,7 @@
 							{/snippet}
 						</DropdownMenu.Trigger>
 						<DropdownMenu.Content
-							class="w-[var(--bits-dropdown-menu-anchor-width)]"
+							class="w-(--bits-dropdown-menu-anchor-width)"
 						>
 							<DropdownMenu.Item>
 								<span>Acme Inc</span>

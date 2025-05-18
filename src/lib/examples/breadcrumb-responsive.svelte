@@ -68,7 +68,7 @@
 								{/each}
 							</div>
 							<Drawer.Footer class="pt-4">
-								<Drawer.Close class={buttonVariants({ variant: "outline" })}>
+								<Drawer.Close class={buttonVariants({ variant: "outline-solid" })}>
 									Close
 								</Drawer.Close>
 							</Drawer.Footer>

@@ -6,7 +6,7 @@
 </script>
 
 <Popover.Root>
-	<Popover.Trigger class={buttonVariants({ variant: "outline" })}
+	<Popover.Trigger class={buttonVariants({ variant: "outline-solid" })}
 		>Open</Popover.Trigger
 	>
 	<Popover.Content class="w-80">

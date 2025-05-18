@@ -6,7 +6,7 @@
 </script>
 
 <Sheet.Root>
-	<Sheet.Trigger class={buttonVariants({ variant: "outline" })}
+	<Sheet.Trigger class={buttonVariants({ variant: "outline-solid" })}
 		>Open</Sheet.Trigger
 	>
 	<Sheet.Content side="right">
@@ -27,7 +27,7 @@
 			</div>
 		</div>
 		<Sheet.Footer>
-			<Sheet.Close class={buttonVariants({ variant: "outline" })}
+			<Sheet.Close class={buttonVariants({ variant: "outline-solid" })}
 				>Save changes</Sheet.Close
 			>
 		</Sheet.Footer>

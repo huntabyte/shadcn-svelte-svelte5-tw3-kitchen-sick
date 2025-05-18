@@ -238,7 +238,7 @@
 								<Select.Root type="single" items={models} bind:value={model}>
 									<Select.Trigger
 										id="model"
-										class="items-start [&_[data-description]]:hidden"
+										class="items-start **:data-description:hidden"
 									>
 										{#if selectedModel}
 											{@render ModelItemContent(selectedModel)}
@@ -312,7 +312,7 @@
 							<Select.Root type="single" items={models} bind:value={model}>
 								<Select.Trigger
 									id="model"
-									class="items-start [&_[data-description]]:hidden"
+									class="items-start **:data-description:hidden"
 								>
 									{#if selectedModel}
 										{@render ModelItemContent(selectedModel)}
@@ -364,7 +364,7 @@
 							<Textarea
 								id="content"
 								placeholder="You are a..."
-								class="min-h-[9.5rem]"
+								class="min-h-38"
 							/>
 						</div>
 					</fieldset>
